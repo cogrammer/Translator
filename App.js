@@ -1,12 +1,10 @@
 import * as React from 'react';
-import { Text, Image, View, StyleSheet } from 'react-native';
+import { Text, View, StyleSheet } from 'react-native';
 import { Constants } from 'expo';
 
 import MainView from './components/MainView';
 import Translator from './components/Translator';
 import PickLang from './components/LanguagePicker';
-
-import { Card } from 'react-native-paper';
 
 export default class App extends React.Component {
   render() {

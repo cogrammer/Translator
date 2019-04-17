@@ -36,7 +36,7 @@ class PickLang extends Component {
       )
    }
 }
-export default Navcontrol
+export default PickLang
 
 const styles = StyleSheet.create({
    text: {
