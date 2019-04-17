@@ -2,6 +2,8 @@ import * as React from 'react';
 import { Keyboard, Alert, Button, Text, TextInput, View, StyleSheet } from 'react-native';
 
 import { Card } from 'react-native-paper';
+
+import config from '../resources/config.json'
 export default class Translator extends React.Component {
   constructor(props) {
     super(props);
@@ -15,7 +17,7 @@ export default class Translator extends React.Component {
   _onPressButton() {
     Keyboard.dismiss();
     console.log(this.state.text);
-    const url = `https://us-south.functions.cloud.ibm.com/api/v1/web/jobayarsbni%40gmail.com_dev/demo/generate-data.json?data=${encodeURIComponent(this.state.text)}`;
+    const url = `${config.TRANSLATION_API_URL}${encodeURIComponent(this.state.text)}`;
     const options = {
       method: 'GET',
     };
