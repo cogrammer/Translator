@@ -1,15 +1,33 @@
 import * as React from 'react';
-import { Text, View, StyleSheet, Image } from 'react-native';
+import { Text, View, StyleSheet, Image, Picker } from 'react-native';
+import Country from './Country'
+import Translator from './Translator'
+import data from '../resources/flags.json';
 
 export default class MainView extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { language: data[Object.keys(data)[0]], selected: "EN-ES" }
+  }
+
+  onLanguageSelected = (k, i) => {
+    console.log(k, i);
+    this.setState({ language: data[k] , selected: k});
+  }
+
   render() {
     return (
-      <View style={styles.container}>
+      <View>
+        <Picker
+          selectedValue={this.state.selected}
+          onValueChange={this.onLanguageSelected}>
+          {Object.keys(data).map(k => <Picker.Item label={k} value={k} key={k} />)}
+        </Picker>
+        <Country from={this.state.language.image_from} to={this.state.language.image_to} />
         <Text style={styles.paragraph}>
-
+          {this.state.language.title}
         </Text>
-
-        <Image style={styles.logo} source={require('../assets/en_es.jpg')} />
+        <Translator />
       </View>
     );
   }
@@ -24,12 +42,8 @@ const styles = StyleSheet.create({
   paragraph: {
     margin: 2,
     marginTop: 0,
-    fontSize: 14,
+    fontSize: 24,
     fontWeight: 'bold',
     textAlign: 'center',
-  },
-  logo: {
-    height: 80,
-    width: 80,
   }
 });
