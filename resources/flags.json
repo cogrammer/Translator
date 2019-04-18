@@ -1,0 +1,111 @@
+{
+    "EN-ES": {
+        "label": "EN-ES",
+        "title": "English to Spanish",
+        "image_from": "US",
+        "image_to": "ES"
+    },
+    "EN-AE": {
+        "label": "EN-AE",
+        "title": "English to Arabic",
+        "image_from": "US",
+        "image_to": "SA"
+    },
+    "EN-CS": {
+        "label": "EN-CZ",
+        "title": "English to Czech",
+        "image_from": "US",
+        "image_to": "CZ"
+    },
+    "EN-DA": {
+        "label": "EN-DA",
+        "title": "English to Danish",
+        "image_from": "US",
+        "image_to": "DK"
+    },
+    "EN-DE": {
+        "label": "EN-DE",
+        "title": "English to German",
+        "image_from": "US",
+        "image_to": "DE"
+    },
+    "EN-FI": {
+        "label": "EN-FI",
+        "title": "English to Finnish",
+        "image_from": "US",
+        "image_to": "FI"
+    },
+    "EN-FR": {
+        "label": "EN-FR",
+        "title": "English to French",
+        "image_from": "US",
+        "image_to": "FR"
+    },
+    "EN-IN": {
+        "label": "EN-IN",
+        "title": "English to Hindi",
+        "image_from": "US",
+        "image_to": "IN"
+    },
+    "EN-IT": {
+        "label": "EN-IT",
+        "title": "English to Italian",
+        "image_from": "US",
+        "image_to": "IT"
+    },
+    "EN-JP": {
+        "label": "EN-JP",
+        "title": "English to Japanese",
+        "image_from": "US",
+        "image_to": "JP"
+    },
+    "EN-KR": {
+        "label": "EN-KR",
+        "title": "English to Korean",
+        "image_from": "US",
+        "image_to": "KR"
+    },
+    "EN-NO": {
+        "label": "EN-NO",
+        "title": "English to Norwegian Bokmal",
+        "image_from": "US",
+        "image_to": "ES"
+    },
+    "EN-NL": {
+        "label": "EN-NL",
+        "title": "English to Dutch",
+        "image_from": "US",
+        "image_to": "NL"
+    },
+    "EN-PT": {
+        "label": "EN-PT",
+        "title": "English to Portuguese",
+        "image_from": "US",
+        "image_to": "PT"
+    },
+    "EN-RU": {
+        "label": "EN-RU",
+        "title": "English to Russian",
+        "image_from": "US",
+        "image_to": "RU"
+    },
+    "EN-SE": {
+        "label": "EN-SE",
+        "title": "English to Swedish",
+        "image_from": "US",
+        "image_to": "SE"
+    },
+    "EN-TR": {
+        "label": "EN-TR",
+        "title": "English to Turkish",
+        "image_from": "US",
+        "image_to": "TR"
+    },
+
+    "EN-CN": {
+        "label": "EN-CN",
+        "title": "English to Chinese",
+        "image_from": "US",
+        "image_to": "CN"
+    }
+}
