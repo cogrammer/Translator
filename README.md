@@ -7,6 +7,6 @@ Currently supports 'EN' - 'FR' (hardcoded) translation using IBM Cloud Functions
 
 
 Here's a walkthrough of implemented user stories:
-<img src= 'https://imgur.com/pFYYaJV' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src= 'https://media.giphy.com/media/Z9tGIzak45w84S8kZI/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
