@@ -9,4 +9,5 @@ Currently supports 'EN' - 'FR' translation using IBM Cloud Functions.. P.S. It c
 Here's a walkthrough of implemented user stories:
 <img src= 'https://media.giphy.com/media/Z9tGIzak45w84S8kZI/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
+
 GIF created with [GIPHY](https://giphy.com/).
