@@ -41,7 +41,7 @@
         "image_from": "US",
         "image_to": "FR"
     },
-    "EN-IN": {
+    "EN-HI": {
         "label": "EN-IN",
         "title": "English to Hindi",
         "image_from": "US",
@@ -53,19 +53,19 @@
         "image_from": "US",
         "image_to": "IT"
     },
-    "EN-JP": {
+    "EN-JA": {
         "label": "EN-JP",
         "title": "English to Japanese",
         "image_from": "US",
         "image_to": "JP"
     },
-    "EN-KR": {
+    "EN-KO": {
         "label": "EN-KR",
         "title": "English to Korean",
         "image_from": "US",
         "image_to": "KR"
     },
-    "EN-NO": {
+    "EN-NB": {
         "label": "EN-NO",
         "title": "English to Norwegian Bokmal",
         "image_from": "US",
@@ -89,7 +89,7 @@
         "image_from": "US",
         "image_to": "RU"
     },
-    "EN-SE": {
+    "EN-SV": {
         "label": "EN-SE",
         "title": "English to Swedish",
         "image_from": "US",
@@ -101,11 +101,190 @@
         "image_from": "US",
         "image_to": "TR"
     },
-
     "EN-CN": {
         "label": "EN-CN",
         "title": "English to Chinese",
         "image_from": "US",
         "image_to": "CN"
+    },
+    "AR-EN": {
+        "label": "AR-EN",
+        "title": "Arabic to English",
+        "image_from": "SA",
+        "image_to": "US"
+    },
+    "CA-ES": {
+        "label": "CA-ES",
+        "title": "Catalan to Spanish",
+        "image_from": "ES",
+        "image_to": "ES"
+    },
+    "ZH-EN": {
+        "label": "CN-EN",
+        "title": "Chinese to English",
+        "image_from": "CN",
+        "image_to": "US"
+    },
+    "CS-EN": {
+        "label": "CZ-EN",
+        "title": "Czech to English",
+        "image_from": "CZ",
+        "image_to": "US"
+    },
+    "DA-EN": {
+        "label": "DA-EN",
+        "title": "Danish to English",
+        "image_from": "DK",
+        "image_to": "US"
+    },
+    "NL-EN": {
+        "label": "NL-EN",
+        "title": "Dutch to English",
+        "image_from": "NL",
+        "image_to": "US"
+    },
+    "FI-EN": {
+        "label": "FI-EN",
+        "title": "Finnish to English",
+        "image_from": "FI",
+        "image_to": "US"
+    },
+    "FR-DE": {
+        "label": "FR-DE",
+        "title": "French to German",
+        "image_from": "FR",
+        "image_to": "DE"
+    },
+    "FR-EN": {
+        "label": "FR-EN",
+        "title": "French to English",
+        "image_from": "FR",
+        "image_to": "US"
+    },
+    "FR-ES": {
+        "label": "FR-ES",
+        "title": "French to Spanish",
+        "image_from": "FR",
+        "image_to": "ES"
+    },
+    "DE-EN": {
+        "label": "DE-EN",
+        "title": "German to English",
+        "image_from": "DE",
+        "image_to": "US"
+    },
+    "DE-FR": {
+        "label": "DE-FR",
+        "title": "German to French",
+        "image_from": "DE",
+        "image_to": "FR"
+    },
+    "DE-IT": {
+        "label": "DE-IT",
+        "title": "German to Italian",
+        "image_from": "DE",
+        "image_to": "IT"
+    },
+    "EL-EN": {
+        "label": "GR-EN",
+        "title": "Greek to English",
+        "image_from": "GR",
+        "image_to": "US"
+    },
+    "HE-EN": {
+        "label": "HE-EN",
+        "title": "Hebrew to English",
+        "image_from": "IL",
+        "image_to": "US"
+    },
+    "HI-EN": {
+        "label": "IN-EN",
+        "title": "Hindi to English",
+        "image_from": "IN",
+        "image_to": "US"
+    },
+    "HU-EN": {
+        "label": "HU-EN",
+        "title": "Hungarian to English",
+        "image_from": "HU",
+        "image_to": "US"
+    },
+    "IT-DE": {
+        "label": "IT-DE",
+        "title": "Italian to German",
+        "image_from": "IT",
+        "image_to": "DE"
+    },
+    "IT-EN": {
+        "label": "IT-EN",
+        "title": "Italian to English",
+        "image_from": "IT",
+        "image_to": "US"
+    },
+    "JA-EN": {
+        "label": "JP-EN",
+        "title": "Japanese to English",
+        "image_from": "JP",
+        "image_to": "US"
+    },
+    "KO-EN": {
+        "label": "KR-EN",
+        "title": "Korean to English",
+        "image_from": "KR",
+        "image_to": "US"
+    },
+    "NB-EN": {
+        "label": "NO-EN",
+        "title": "Norwegian Bokmal to English",
+        "image_from": "NO",
+        "image_to": "US"
+    },
+    "PL-EN": {
+        "label": "PL-EN",
+        "title": "Polish to English",
+        "image_from": "PL",
+        "image_to": "US"
+    },
+    "PT-EN": {
+        "label": "PT-EN",
+        "title": "Portuguese to English",
+        "image_from": "PT",
+        "image_to": "US"
+    },
+    "RU-EN": {
+        "label": "RU-EN",
+        "title": "Russian to English",
+        "image_from": "RU",
+        "image_to": "US"
+    },
+    "ES-CA": {
+        "label": "ES-CA",
+        "title": "Spanish to Catalan",
+        "image_from": "ES",
+        "image_to": "ES"
+    },
+    "ES-EN": {
+        "label": "ES-EN",
+        "title": "Spanish to English",
+        "image_from": "ES",
+        "image_to": "US"
+    },
+    "ES-FR": {
+        "label": "ES-FR",
+        "title": "Spanish to French",
+        "image_from": "ES",
+        "image_to": "FR"
+    },
+    "SV-EN": {
+        "label": "SE-EN",
+        "title": "Swedish to English",
+        "image_from": "SE",
+        "image_to": "US"
+    },
+    "TR-EN": {
+        "label": "TR-EN",
+        "title": "Turkish to English",
+        "image_from": "TR",
+        "image_to": "US"
     }
 }

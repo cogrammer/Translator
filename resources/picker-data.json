@@ -1,0 +1,14 @@
+{
+  "EN-ES": {
+    "label": "EN-ES",
+    "title": "English to Spanish",
+    "image_from": "US",
+    "image_to": "ES"
+  },
+  "ES-EN": {
+    "label": "ES-EN",
+    "title": "Spanish to English",
+    "image_from": "ES",
+    "image_to": "US"
+  }
+}
