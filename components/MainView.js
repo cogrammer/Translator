@@ -4,17 +4,19 @@ import Country from './Country'
 import Translator from './Translator'
 import data from '../resources/flags.json';
 
+var translation_select = 0;
+
 export default class MainView extends React.Component {
+ 
   constructor(props) {
     super(props);
     this.state = { language: data[Object.keys(data)[0]], selected: "EN-ES" }
   }
-
   onLanguageSelected = (k, i) => {
     console.log(k, i);
+    translation_select = i;
     this.setState({ language: data[k] , selected: k});
   }
-
   render() {
     return (
       <View>
@@ -27,7 +29,7 @@ export default class MainView extends React.Component {
         <Text style={styles.paragraph}>
           {this.state.language.title}
         </Text>
-        <Translator />
+        <Translator model_no = {translation_select} />  
       </View>
     );
   }

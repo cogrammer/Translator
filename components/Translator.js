@@ -10,14 +10,21 @@ export default class Translator extends React.Component {
     this.state = {
       translation: ' ',
       text: 'hello',
+      model_code: 0
     };
     this._onPressButton = this._onPressButton.bind(this);
   }
 
   _onPressButton() {
     Keyboard.dismiss();
-    console.log(this.state.text);
-    const url = `${config.TRANSLATION_API_URL}${encodeURIComponent(this.state.text)}`;
+    this.state.model_code = this.props.model_no;
+    console.log(this.state.text, this.state.model_code);
+    var send_pkg = JSON.stringify({
+      data: this.state.text,
+      no: this.state.model_code
+    });
+    console.log(send_pkg)
+    const url = `${config.TRANSLATION_API_URL}${encodeURIComponent(send_pkg)}`;
     const options = {
       method: 'GET',
     };
