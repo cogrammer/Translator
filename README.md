@@ -1,4 +1,4 @@
-# translator
+# Translator
 - Supports cross translation between any of the following languages using IBM cloud API:
 ```
         English     Danish      Japanese
