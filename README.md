@@ -1,13 +1,17 @@
 # translator
-Currently supports 'EN' - 'ES' translation using IBM Cloud Functions. Working on visual representation of the app....
+    - Supports cross translation between any of the following languages using IBM cloud API:
+        ```
+        English     Danish      Japanese
+        Spanish     German      Korean
+        Hindi       Greek       Norwigian
+        Italian     Finnish     Dutch
+        Arabic      French      Polish
+        Czech       Hebrew      Portuguese
+        Russian     Swedish     Chinese            
+        ```
 
 
-## Video Walkthrough of the app as of April 2nd @ 12:14 GMT
+## Video Walkthrough of the app as of September 8th
+    -Here's a walkthrough of implemented user stories:
 
-
-
-Here's a walkthrough of implemented user stories:
-
-<img src= 'https://i.imgur.com/ZBzUAr6.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
+![Translator app demo](demo/20190909_000248.gif)
