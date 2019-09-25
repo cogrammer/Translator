@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { Text, View, StyleSheet } from 'react-native';
-import { Constants } from 'expo';
 
 import Flag from 'react-native-flags';
 
@@ -26,9 +25,8 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     flexDirection: 'row',
-    justifyContent: 'center',
+    justifyContent: 'space-around',
     alignItems: 'center',
-    paddingTop: Constants.statusBarHeight,
-    padding: 8,
+    padding: 0,
   }
 });

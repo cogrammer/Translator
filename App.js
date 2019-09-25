@@ -1,14 +1,17 @@
-import * as React from 'react';
+import React, {Component} from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 import { Constants } from 'expo';
 
 import MainView from './components/MainView';
+import Country from './components/Country';
 
-export default class App extends React.Component {
+
+export default class App extends Component {
+
   render() {
     return (
       <View style={styles.container}>
-        <MainView />
+          <MainView />
       </View>
     );
   }
@@ -18,7 +21,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     paddingTop: Constants.statusBarHeight,
-    backgroundColor: '#ecf0f1',
     padding: 8,
-  }
+  },
 });
