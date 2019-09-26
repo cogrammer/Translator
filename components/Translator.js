@@ -34,7 +34,6 @@ export default class Translator extends Component {
         fetch(urlA, options)
           .then((response) => response.json())
           .then ((responseJson => {
-            console.log(responseJson.payload.translations[0].translation)
             return responseJson.payload.translations[0].translation ;
           }))
           .then((data) =>{
